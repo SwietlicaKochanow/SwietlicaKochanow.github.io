@@ -90,3 +90,23 @@ footer>a:last-child { color:#fff; }
 @media(max-width:1000px){.site-header nav{gap:18px}.hero{grid-template-columns:1fr}.hero-copy{padding-top:70px}.hero-photo{min-height:520px;border-radius:28px 28px 0 0}.quick-strip{grid-template-columns:1fr;margin-top:0}.quick-strip>div{border-right:0;border-bottom:1px solid #e3e3d9}.quick-strip>div:last-child{border:0}.about-grid,.contact{grid-template-columns:1fr}.facebook-section{grid-template-columns:1fr}.facebook-card{display:none}.contact address{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:720px){.site-header{height:82px;padding:0 18px}.site-header nav{display:none}.brand{font-size:18px}.brand strong{font-size:15px}.leaf-mark{transform:scale(.78);margin-left:-7px;margin-right:-7px}.hero-copy{padding:60px 24px}.hero-photo{min-height:380px}.hero-actions{flex-direction:column}.button{width:100%}.quick-strip{width:calc(100% - 28px);padding:12px}.quick-strip>div{padding:18px 10px}.section{padding:78px 22px}.about-grid{gap:38px}.feature-grid{grid-template-columns:1fr}.facebook-section{margin:0 14px;padding:55px 24px}.gallery-grid{grid-template-columns:1fr}.gallery-grid img{min-height:280px}.contact{padding:78px 22px;gap:40px}.contact address{grid-template-columns:1fr}.contact address div{min-height:auto}footer{flex-direction:column;text-align:center;padding:40px 24px}.footer-brand{justify-content:center}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button,.feature-grid article,.gallery-grid img{transition:none}}
+
+.brand-logo {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+
+.footer-brand .brand-logo {
+  width: 44px;
+  height: 44px;
+}
+
+@media (max-width: 720px) {
+  .brand-logo {
+    width: 48px;
+    height: 48px;
+  }
+}
